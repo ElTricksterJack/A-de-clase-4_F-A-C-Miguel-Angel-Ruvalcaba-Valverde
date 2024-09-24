@@ -1,0 +1,16 @@
+#Grados fahrenheit a celsius
+print(" ")
+print("Ruvalcaba Valverde Miguel Angel")
+print("-----------Ingresar Numeros-----------")
+F = float(input("ingresa temperatura a en grados fahrenheit: "))
+C = (F-32) * 5/9 
+
+if F <= -951.34:
+    print("lo siento pero eso el el 0 absoluto en Kelvin")
+elif F >= -951.34:
+    print("(",F,"-32) * 5/9 =",C)
+    print("Grados celsius:",C)
+
+print("--------------------------------------")
+print("Resultado: los grados F se lograron pasar a Celsius pero si el limite pasa el 0 absoluto ya no sirve")
+print(" ")
